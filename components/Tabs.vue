@@ -48,7 +48,7 @@ const productFilter = (e) => {
 
 <template>
   <div class="w-100% h-[100px]">
-    <div class="flex flex-raw justify-center sm:justify-normal mt-[100px] sm:ml-[40px] font-bold text-3xl">
+    <div class="flex flex-raw justify-center sm:justify-normal pt-[100px] sm:ml-[40px] font-bold text-3xl">
       Kаталог товаpов
     </div>
     <div class="flex flex-raw justify-center sm:pt-0 sm:justify-end pt-10 mr-[40px]">
