@@ -118,7 +118,7 @@ const productFilter = (e) => {
           <a href="#" class="mr-4 hover:underline md:mr-6">Лицензия</a>
         </li>
         <li>
-          <a href="#" class="hover:underline">Контакты</a>
+          <a href="#" class="hover:underline"><nuxt-link to="/contact">Контакты</nuxt-link></a>
         </li>
       </ul>
     </footer>
