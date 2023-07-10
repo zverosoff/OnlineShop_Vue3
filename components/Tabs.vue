@@ -109,7 +109,7 @@ const productFilter = (e) => {
 
       <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500">
         <li>
-          <a href="#" class="mr-4 hover:underline md:mr-6">О нас</a>
+          <a href="#" class="mr-4 hover:underline md:mr-6"><nuxt-link to="/breand">О бренде</nuxt-link></a>
         </li>
         <li>
           <a href="#" class="mr-4 hover:underline md:mr-6">Правила</a>

@@ -20,17 +20,17 @@ const productStore = useProductStore();
         </li>
         <li>
           <a href="#" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-sky-400 hover:text-white"
-            ><b>Магазин</b></a
+            ><b><nuxt-link to="/">Магазин</nuxt-link></b></a
           >
         </li>
         <li>
           <a href="#" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-sky-400 hover:text-white"
-            >О бренде</a
+            ><nuxt-link to="/breand">О бренде</nuxt-link></a
           >
         </li>
         <li>
           <a href="#" class="font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-sky-400 hover:text-white"
-            >Контакты</a
+            ><nuxt-link to="/contact">Контакты</nuxt-link></a
           >
         </li>
       </ul>
@@ -53,7 +53,7 @@ const productStore = useProductStore();
       </div>
 
       <span
-        class="fixed top-[19px] right-[50px] sm:right-[150px] rounded-lg pl-4 pr-4 p-1 text-sm text-neutral-400 shadow-inner"
+        class="invisible lg:visible fixed top-[19px] right-[50px] sm:right-[150px] rounded-lg pl-4 pr-4 p-1 text-sm text-neutral-400 shadow-inner"
       >
         <b>{{ productStore.totalPrice }} </b> ₽
       </span>
