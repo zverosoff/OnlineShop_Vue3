@@ -53,7 +53,7 @@ const productStore = useProductStore();
       </div>
 
       <span
-        class="invisible lg:visible fixed top-[19px] right-[50px] sm:right-[150px] rounded-lg pl-4 pr-4 p-1 text-sm text-neutral-400 shadow-inner"
+        class=" fixed top-[19px] right-[50px] sm:right-[150px] rounded-lg pl-4 pr-4 p-1 text-sm text-neutral-400 shadow-inner"
       >
         <b>{{ productStore.totalPrice }} </b> ₽
       </span>
